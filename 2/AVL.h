@@ -10,12 +10,10 @@ public:
 	void begin_of_clearing();
 	void begin_of_reading(std::string);
 	void begin_of_writing(std::string);
-	//void build_tree(Node*, Node*);
 	void clear(Node*);
 	Node* get_root();
 	void insert(std::string, unsigned long long);
 	Node* min_in_right_subtree(Node*);
-	//void operator=(AVL&);
 	void reading(Node*, std::ifstream&, bool);
 	void remove(std::string);
 	void rotate_left(Node*);
