@@ -4,37 +4,6 @@ AVL::AVL() {
 	root = nullptr;
 }
 
-/*void AVL::operator=(AVL& copy) {
-	this->clear(this->root);
-	root = nullptr;
-	Node* root_of_copy = copy.get_root();
-	if (root_of_copy) {
-		root = new Node(root_of_copy->get_key(), root_of_copy->get_value(), nullptr);
-		root->set_balance(root_of_copy->get_balance());
-		build_tree(root, root_of_copy);
-	}
-}
-
-void AVL::build_tree(Node* parent, Node* node_of_copy) {
-	Node *left_of_copy = node_of_copy->get_left(), *right_of_copy = node_of_copy->get_right();
-	if (left_of_copy) {
-		Node* left = new Node(left_of_copy->get_key(), left_of_copy->get_value(), parent);
-		left->set_balance(left_of_copy->get_balance());
-		parent->set_left(left);
-		build_tree(left, left_of_copy);
-		node_of_copy->set_left(nullptr);
-	}
-	if (right_of_copy) {
-		Node* right = new Node(right_of_copy->get_key(), right_of_copy->get_value(), parent);
-		right->set_balance(right_of_copy->get_balance());
-		parent->set_right(right);
-		build_tree(right, right_of_copy);
-		node_of_copy->set_right(nullptr);
-	}
-	node_of_copy->set_parent(nullptr);
-	delete node_of_copy;
-}*/
-
 void AVL::set_root() {
 	root = nullptr;
 }
