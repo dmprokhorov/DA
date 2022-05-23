@@ -169,8 +169,5 @@ int main()
     for (unsigned i = 0; i < size; ++i) {
         std::cout << answers[i].first << ", " << answers[i].second << "\n";
     }
-    system("pause");
     return 0;
 }
-
-
