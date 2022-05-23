@@ -50,5 +50,3 @@ int main()
     tree.clear(tree.get_root());
     return 0;
 }
-
-
