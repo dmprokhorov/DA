@@ -241,8 +241,5 @@ int main()
         std::cout << answer[i] << "\n";
     }
     trie.clear(trie.root);
-    system("pause");
     return 0;
 }
-
-
