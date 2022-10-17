@@ -1,6 +1,3 @@
-﻿// 5.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <vector>
 #include <map>
@@ -241,8 +238,5 @@ int main()
         std::cout << answer[i] << "\n";
     }
     trie.clear(trie.root);
-    system("pause");
     return 0;
 }
-
-
