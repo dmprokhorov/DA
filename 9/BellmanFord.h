@@ -46,4 +46,3 @@ std::vector<long long> BellmanFord(const std::vector<TEdgeBellmanFord>& edges, u
 }
 
 #endif BELLMANFORD_H
-
