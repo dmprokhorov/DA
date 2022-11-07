@@ -1,6 +1,3 @@
-﻿// 9.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <climits>
 #include "BellmanFord.h"
@@ -49,8 +46,5 @@ int main()
             std::cout << "\n";
         }
     }
-    system("pause");
     return 0;
 }
-
-
