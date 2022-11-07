@@ -1,6 +1,3 @@
-﻿// 7.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -51,8 +48,5 @@ int main()
         way.pop();
     }
     std::cout << "\n";
-    system("pause");
     return 0;
 }
-
-

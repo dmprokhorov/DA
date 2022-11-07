@@ -1,7 +1,3 @@
-﻿// 8.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -67,8 +63,5 @@ int main() {
 		std::cout << result[i] << " ";
 	}
 	std::cout << "\n";
-	system("pause");
 	return 0;
 }
-
-
