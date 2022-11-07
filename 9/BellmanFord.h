@@ -1,4 +1,3 @@
-
 #ifndef BELLMANFORD_H
 #define BELLMANFORD_H
 #include <vector>
